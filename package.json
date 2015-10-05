@@ -1,0 +1,25 @@
+{
+  "name": "Convertidor-de-temperatura",
+  "version": "0.0.1",
+  "description": "Convertidor de temperatura en javascript",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "open tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100536652/STW02.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100536652/STW02/issues"
+  },
+  "homepage": "https://github.com/alu0100536652/STW02",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
+}
