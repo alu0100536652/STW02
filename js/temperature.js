@@ -10,9 +10,9 @@ function calcular() {
     
     if (m) {
       var num = m[1];
-      var type = m[2];
+      var type = m[2].toLowerCase();
       num = parseFloat(num);
-      if (type == 'c' || type == 'C') {
+      if (type == 'c') {
         result = (num * 9/5)+32;
         result = result.toFixed(1)+" Farenheit"
       }
