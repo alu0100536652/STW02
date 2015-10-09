@@ -16,7 +16,7 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 
 **Página de la test**
 
-* [Web](http://alu0100536652.github.io/STW02/test/)
+* [Test](http://alu0100536652.github.io/STW02/test/)
 
 **Página del autor**
 

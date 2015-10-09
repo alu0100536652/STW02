@@ -26,4 +26,9 @@ suite('Conversor de temperatura', function() {
         calcular();
         assert.notDeepEqual(converted.innerHTML, "0.0 Farenheit");
     });
+    test('Debe aceptar numeros con exponentes, 32e2c', function() {
+        original.value = "32e2c";
+        calcular();
+        assert.equal(converted.innerHTML, "35.6 Farenheit");
+    });
 });
