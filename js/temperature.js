@@ -5,7 +5,7 @@ function calcular() {
   
   if (temp)
   {
-    var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+    var regexp = /^\s*([-+]?\d+(?:\.\d+)?(?:e[+-]?\d+)?)\s*([cCfF])\s*$/i;
     var m = temp.match(regexp);
     
     if (m) {
